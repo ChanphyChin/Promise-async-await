@@ -58,7 +58,7 @@ promise里面的resolve和reject分别代表什么呢，resolve代表符合要�
 ### Promise.all()
 * promise.all()的主要使用场景在于：循环执行请求，等待循环的所有请求都执行完毕。
 * promise.all()的参数为promise数组
-```
+``` javascript
 简单实例：
 
       function myPromiseFn (){
@@ -88,7 +88,7 @@ promise里面的resolve和reject分别代表什么呢，resolve代表符合要�
 ### Promise.race()
 * Promise.race()方法与.all()方法的唯一区别是只要传入的promise数组resolve或者reject了，.then()就会执行.
 
-```
+``` javascript
 简单实例：
 
       function myPromiseFn (){
