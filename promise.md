@@ -2,7 +2,7 @@
 * 很多的插件里面的.then() , .catch() 都是基于Promise对象封装的
 * 主要使用场景：调用接口等待服务器返回数据之后才能进行下一步操作
 * 优点：解决了依赖接口返回数据多层嵌套的回调地狱，使代码结构清晰，便于后期维护。
-```
+``` javascript
 简单实例：
 
       var myPromise = new Promise(function(resolve, reject) {
