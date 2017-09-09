@@ -3,7 +3,7 @@
 * async await 作用基于es6添加的promise对象。
 * 可以用try 和 catch 语法捕获成功和失败。
 
-```
+``` javascript
     首先实例一个promise对象
 
     var mypromise = i=>{
@@ -29,7 +29,7 @@
 ```
 
 * async和await不需要.then捕获，用try catch捕获结果
-```
+``` javascript
     var mypromise = time=>{
         return new Promise((resolve,reject)=>{
             setTimeout(()=>{
@@ -57,7 +57,7 @@
 * 感触最深的一个使用场景
     1. 需求说明：在一个循环里面重复调用一个接口，但是必须在前一个接口返回数据，并且成功之后才能继续调用下一次，如果失败，那么循环还没结束的部分取消，不再调用接口。
     2. 代码示例：
-    ```
+    ``` javascript
         var getData = i=>{
             return new Promise((resolve,reject)=>{
                 setTimeout(()=>{
