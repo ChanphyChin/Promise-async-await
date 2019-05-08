@@ -113,8 +113,7 @@ promise里面的resolve和reject分别代表什么呢，resolve代表符合要�
       })
 
 输出结果为: 0,promiseRace,1,2,3,4
-
-
+```
 
 ### es7 async & await  
 
