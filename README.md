@@ -116,7 +116,8 @@ promise里面的resolve和reject分别代表什么呢，resolve代表符合要�
 
 
 
-### es7 async & await
+### es7 async & await  
+
 * 自从es7加入了async和await之后，前端异步的处理就简单方便了很多了。
 * async await 作用基于es6添加的promise对象。
 * 可以用try 和 catch 语法捕获成功和失败。
@@ -144,7 +145,8 @@ promise里面的resolve和reject分别代表什么呢，resolve代表符合要�
 
     myasync();
     控制台打印 start  async  end
-```
+```  
+
 
 * async和await不需要.then捕获，用try catch捕获结果
 ``` javascript
